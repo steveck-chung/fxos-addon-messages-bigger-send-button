@@ -1,0 +1,14 @@
+{
+  "manifest_version": 1,
+  "name": "Messages - Larger send and attachment buttons",
+  "description": "Makes attachment and send buttons larger and easier to tap",
+  "version": "1.0",
+  "author": "Les Orchard",
+  "content_scripts": [{
+    "matches": ["app://sms.gaiamobile.org/index.html"],
+    "css": [],
+    "js": ["index.js"]
+  }],
+  "icons": {
+  }
+}
